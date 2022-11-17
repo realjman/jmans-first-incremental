@@ -9,6 +9,7 @@
 
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/save.js"></script>
 
     <title>J man's first incremental</title>
 </head>
@@ -21,12 +22,13 @@
         <br><button onclick="getMoreMoneyPerClick()">get more moners per click (<span id="monersPerClick">10</span> moners)</button>
     </div>
     <div>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-        current version: <span id="version">vloading...</span><br>
+        <br><br><br><br><br>
+        <button onclick="saveGame()">save the game</button>
+        <p id="saved"></p>
         <br>
-        v0.1: <br>
-        game created<br>
-        (save havent implemented)
+        <br><br><br><br><br><br>
+        current version: v0.1.1 alpha<br>
+        <a href="update_logs.html">update logs</a>
     </div>
 </body>
 </html>

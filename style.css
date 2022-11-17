@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+    user-select: none;
+}
+
+h1 {
+    font-size: larger;
+    border-style: solid;
+    border-color: black;
+}
+
+button {
+    background-color: #a1e212;
+    border-width: 1px;
+    margin: 5px;
+}
+
+.monerborders {
+    border-style: solid;
+    border-color: green;
+}
